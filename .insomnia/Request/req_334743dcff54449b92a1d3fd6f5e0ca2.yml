@@ -1,0 +1,23 @@
+_id: req_334743dcff54449b92a1d3fd6f5e0ca2
+type: Request
+parentId: wrk_a2965cc67d854a459dbe992a313ad01b
+modified: 1682946901394
+created: 1682946755479
+url: https://petstore.swagger.io/{{_.version}}/pet/{% response 'body',
+  'req_6758d4d7e56b445485d0832034d613f7', 'b64::JC5pZA==::46b', 'no-history', 60
+  %}
+name: Get Pet
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1682946755479
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

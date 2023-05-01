@@ -1,0 +1,43 @@
+_id: req_6758d4d7e56b445485d0832034d613f7
+type: Request
+parentId: wrk_a2965cc67d854a459dbe992a313ad01b
+modified: 1682946720430
+created: 1682946484428
+url: https://petstore.swagger.io/{{_.version}}/pet
+name: Add Pet
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "category": {
+        "id": 0,
+        "name": "string"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682946484428
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

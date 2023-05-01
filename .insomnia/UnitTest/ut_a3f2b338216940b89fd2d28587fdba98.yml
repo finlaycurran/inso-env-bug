@@ -1,0 +1,10 @@
+_id: ut_a3f2b338216940b89fd2d28587fdba98
+type: UnitTest
+parentId: uts_b17b49ac6e3a4009b8d91b0558297737
+modified: 1682946868320
+created: 1682946865699
+requestId: req_334743dcff54449b92a1d3fd6f5e0ca2
+name: Get Added Pet
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
